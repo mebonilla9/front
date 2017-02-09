@@ -1,7 +1,3 @@
 {
-  "PQR_TITLE" : "Preguntas, quejas y reclamos",
-  "ALIANZA_SERVICES_PQR_CONSULTA_NUMERO_CASO": "Número de caso",
-  "ALIANZA_SERVICES_PQR_CONSULTA_DESCRIPCION": "Descripción",
-  "ALIANZA_SERVICES_PQR_CONSULTA_FECHA_APERTURA": "Fecha de apertura",
-  "ALIANZA_SERVICES_PQR_CONSULTA_ESTADO": "Estado"
+  "demo_TITLE" : "DEMO",
 }

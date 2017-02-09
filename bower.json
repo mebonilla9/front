@@ -1,5 +1,5 @@
 {
-  "name": "alianza.pqr",
+  "name": "alianza.demo",
   "private": true,
   "dependencies": {
     "angular": "~1.2.8",

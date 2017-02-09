@@ -15,7 +15,7 @@ const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 
 const config = {
-  appName: 'alianza.pqr',
+  appName: 'alianza.demo',
   tmpPath: '.tmp',
   distPath: 'dist',
 }

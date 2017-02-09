@@ -1,0 +1,48 @@
+{
+  "name": "alianza.pqr",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.8",
+    "angular-resource": "~1.2.8",
+    "angular-cookies": "~1.2.8",
+    "angular-sanitize": "~1.2.8",
+    "angular-ui-router": "0.2.10",
+    "angular-translate": "~2.2.0",
+    "angular-translate-loader-static-files": "~2.2.0",
+    "angular-agility": "~0.8.2",
+    "angular-utf8-base64": "0.0.5",
+    "ng-table": "~0.5.4",
+    "fontawesome": "~4.2.0",
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "group": {
+    "distro": [
+      "lodash"
+    ]
+  },
+  "ignore": [
+    "bower_components/",
+    "node_modules/",
+    "test/",
+    "app/"
+  ],
+  "main": [
+    "dist/pqr.js"
+  ],
+  "overrides": {
+    "lodash": {
+      "main": [
+        "dist/lodash.js"
+      ]
+    }
+  },
+  "resolutions": {
+    "angular": "~1.2.32",
+    "angular-translate-loader-static-files": "^2.12.1",
+    "angular-translate": "^2.12.1"
+  }
+}

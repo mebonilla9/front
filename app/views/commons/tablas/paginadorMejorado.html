@@ -1,0 +1,10 @@
+<div ng-if="pages.length" class="pagination primary">
+    <a ng-class="{disabled: !(pages | filter: {type:'first'})[0].active}" ng-click="params.page((pages | filter: {type:'first'})[0].number)">Primero</a>
+    <a ng-class="{disabled: !(pages | filter: {type:'prev'})[0].active && !(pages | filter: {type:'prev'})[0].current}" ng-click="params.page((pages | filter: {type:'prev'})[0].number)">Anterior</a>
+    <a ng-repeat="page in pages" ng-click="params.page(page.number)"
+       class="{{page.current? 'current' : ''}} {{!page.active? 'disabled' : ''}}"
+       ng-if="page.type=='page' || page.type=='first' || page.type=='last'" ng-bind="page.number">
+    </a>
+    <a ng-class="{disabled: !(pages | filter: {type:'next'})[0].active && !(pages | filter: {type:'next'})[0].current}" ng-click="params.page((pages | filter: {type:'next'})[0].number)">Siguiente</a>
+    <a ng-class="{disabled: !(pages | filter: {type:'last'})[0].active}" ng-click="params.page((pages | filter: {type:'last'})[0].number)">Último</a>
+</div>
